@@ -12,7 +12,7 @@ The output of the calls has to be:
 
 respectively. Please note that the attribute "id" has to be incremented at each call.
 
-Create a test case to test both the Web Methods provided by the REST Web Service.
+Create a test case to test the Web Methods provided by the REST Web Service.
 
 
 ## Hints:
@@ -21,4 +21,4 @@ Publish a RESTful Web Service.
 * Create a POJO to create the response and to maintain the status (i.e., the incremental "id" attribute. Have a look at ```incrementAndGet#AtomicLong```).
 * Create the Web Service using the Spring Annotations. Use ```@RestController```, ```@RequestMapping```, ```@PathVariable``` and ```@RequestParam``` to create the Web Service and the Web Method.
 
-Create a test case ```@WebAppConfiguration```, ```@Autowired```, ```WebApplicationContext``` and ```MockMvc``` classes;
+Create a test case by using ```@WebAppConfiguration``` and ```@Autowired``` annotations and ```WebApplicationContext``` and ```MockMvc``` classes;
